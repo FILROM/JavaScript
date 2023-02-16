@@ -2,12 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css"/>
 </head>
 <body>
-    <audio src="" controls id="s1"></audio>
-    <audio src="" controls id="s2"></audio>
-</body>
+    <p>PRESS S to start record</p>
+    <p>PRESS F to play recorded sound</p>
+    <div class="container">
+        <div class="pad">
+            <div class="sound1">
+                <kbd class="key-code" id="q">Q</kbd>
+                <audio  src="sounds/clap-fat.wav" id="sound1"></audio>
+            </div>
+            <div class="sound2">
+                <kbd class="key-code" id="w">W</kbd>
+                <audio  src="sounds/hihat-acoustic01.wav" id="sound2"></audio>
+            </div>
+            <div class="sound3">
+                <kbd class="key-code" id="e">E</kbd>
+                <audio  src="sounds/kick-acoustic01.wav" id="sound3"></audio>
+            </div>
+            <div class="sound4">
+                <kbd class="key-code" id="r">R</kbd>
+                <audio  src="sounds/openhat-acoustic01.wav" id="sound4"></audio>
+            </div>
+            <div class="sound5">
+                <kbd class="key-code" id="t">T</kbd>
+                <audio  src="sounds/snare-big.wav" id="sound5"></audio>
+            </div>
+            <div class="sound6">
+                <kbd class="key-code" id="y">Y</kbd>
+                <audio  src="sounds/tom-acoustic01.wav" id="sound6"></audio>
+            </div>
+            <div>
+                <kbd class="record" id="Record">Record</kbd>
+            </div>
+            <div>
+                <kbd class="play" id="Playing">Play</kbd>
+            </div>
+        </div>
+</div>
+    <script src="js/srcipt.js"></script>
+</body> 
+
 </html>
